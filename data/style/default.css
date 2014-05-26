@@ -1,0 +1,45 @@
+.emj {
+    font-family: 'EmojiSymbols', Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif !important;
+    line-height: 1;
+}
+
+.dislike_thumb {
+    background-repeat: no-repeat !important;
+    background-size: 16px 16px !important;
+    cursor: pointer;
+}
+
+.chatbox {
+    position: relative;
+    float: left;
+}
+
+.chatbox .dislike_thumb {
+    background-position: center center;
+    display: block;
+    height: 28px;
+    width: 26px;
+}
+
+.comment_newsfeed {
+    bottom: 0;
+    top: 0;
+    position: absolute;
+}
+
+.comment_newsfeed .dislike_thumb {
+    background-position: 0 0;
+    display: block;
+    height: 21px;
+    width: 16px;
+}
+
+.status_area.dislike_thumb {
+    background-position: center center !important;
+}
+
+.fix_textarea {
+    width: -webkit-calc(100% - 20px) !important;
+    width: -moz-calc(100% - 20px) !important;
+    width: calc(100% - 20px) !important;
+}
