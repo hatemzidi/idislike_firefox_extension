@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+_garbage
+_sandbox
+*.xpi
+*.iml
+.DS_Store
